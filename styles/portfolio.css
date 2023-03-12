@@ -30,6 +30,7 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  margin-top: 0;
 }
 
 .hero {
@@ -61,9 +62,10 @@ p {
   padding: 15px 30px;
 }
 
-.btn btn-branding-outline {
+.btn-branding-outline {
   color: var(--branding-color);
   border: var(--branding-color);
+  border: 1px solid;
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
