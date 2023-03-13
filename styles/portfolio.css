@@ -140,3 +140,14 @@ footer {
     /* i.e. when it is small screen */
   }
 }
+
+@media (max-width: 600px) {
+  .container2 p {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .btn-branding {
+    margin-left: 120px;
+  }
+}
