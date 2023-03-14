@@ -90,9 +90,6 @@ nav-link.active {
 }
 
 .container2 {
-  /* display: flex;
-  justify-content: space-around; */
-
   background: var(--secondary-color);
   border-radius: 20px;
   width: 1160px;
@@ -118,6 +115,31 @@ footer {
   line-height: 36px;
   text-align: center;
 }
+.about-section {
+  margin-top: 200px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 85.31px;
+  margin-top: 100px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  line-height: 27px;
+}
+
+.about-section p {
+  font-size: 16px;
+  font-family: var(--default-font-family);
+  line-height: 30px;
+}
+
+.section-image {
+  margin-top: -150px;
+}
 
 /* to adjust the spacing */
 @media (max-width: 900px) {
@@ -132,6 +154,7 @@ footer {
 
   .hero {
     padding: 80px 20px;
+    margin-top: 50px;
   }
 
   .project-description {
@@ -147,7 +170,13 @@ footer {
     text-align: left;
   }
 
-  .btn-branding {
-    margin-left: 120px;
+  .about-section {
+    text-align: center;
+       margin-top: 50px;
   }
-}
+
+  .section-image {
+    margin-top: 30px;
+   margin-left: -80px ;
+  }
+
