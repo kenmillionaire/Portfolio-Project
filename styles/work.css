@@ -115,26 +115,34 @@ nav-link.active {
   line-height: 36px;
   text-align: center;
 }
-.about-section {
+.content-container {
   margin-top: 200px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
+  font-weight: 700;
   line-height: 85.31px;
   margin-top: 100px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
   line-height: 27px;
 }
 
-.about-section p {
-  font-size: 16px;
+.content-container h3 {
+  font-size: 24px;
   font-family: var(--default-font-family);
-  line-height: 30px;
+}
+
+.content-container p {
+  font-family: var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
 }
 
 .section-image {
@@ -176,9 +184,9 @@ footer {
     text-align: left;
   }
 
-  .about-section {
+  .content-container {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   .section-image {
@@ -186,11 +194,7 @@ footer {
     margin-left: -80px;
   }
 
-  /* .btn {
+  .btn {
     margin-left: 150px;
-  } */
-  /* 
-  .mail {
-    margin-top: 10px;
-  } */
+  }
 }
