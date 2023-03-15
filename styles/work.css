@@ -145,6 +145,9 @@ nav-link.active {
   letter-spacing: 0em;
 }
 
+.img-fluid {
+  margin-top: 150px;
+}
 .section-image {
   margin-top: -150px;
 }
