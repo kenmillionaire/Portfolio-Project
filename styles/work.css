@@ -200,4 +200,8 @@ footer {
   .btn {
     margin-left: 150px;
   }
+
+  .mail {
+    font-size: 14px;
+  }
 }
