@@ -107,9 +107,9 @@ nav-link.active {
   line-height: 27px;
 }
 
-.mail {
+.mail p {
   font-family: var(--default-font-family);
-  margin-top: 80px;
+  margin-top: 150px;
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
@@ -172,8 +172,14 @@ footer {
 
 @media (max-width: 600px) {
   .container2 p {
-    font-size: 14px;
+    font-size: 12px;
     text-align: left;
+  }
+
+  .container2 h3 {
+    margin-left: 0;
+    text-align: left;
+    font-size: 42px;
   }
 
   .about-section {
@@ -186,8 +192,8 @@ footer {
     margin-left: -80px;
   }
 
-  /* .btn {
-    margin-left: 150px;
+  /* .btn-branding2 {
+    margin-left: 100px;
   } */
   /* 
   .mail {
