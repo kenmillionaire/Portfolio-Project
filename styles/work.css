@@ -38,12 +38,53 @@ p {
   line-height: 30px;
 }
 
-.nav-link {
+.logo-small {
+  max-width: 200px;
+  max-height: 50px;
+}
+
+.logo {
+  /* max-width: 200px; */
+  max-height: 50px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+/* .nav-link {
   font-family: var(--default-font-family);
 }
 nav-link.active {
   color: var(--branding-color);
-}
+} */
 
 .hero {
   background: var(--secondary-color);
@@ -203,5 +244,8 @@ footer {
 
   .mail {
     font-size: 14px;
+  }
+  nav a {
+    font-size: 12px;
   }
 }

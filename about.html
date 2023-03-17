@@ -26,23 +26,28 @@
 <body>
 
 
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand ms-5" href="#">Ken Osoba</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link" href="/">Home</a>
-          <a class="nav-link active text-primary" aria-current="page" href="/about.html">About</a>
-          <a class="nav-link" href="/work.html">Work</a>
-          <a class="nav-link" href="/contact.html">Contact</a>
-        </div>
-      </div>
-    </div>
-  </nav>
+  <div class="container">
+    <nav class="d-flex justify-content-between">
+      <a href="/">
+        <img src="images/logo.png" class="logo d-none d-md-block" alt="Kendecor logo">
+        <img src="images/logo-small.png" class="logo d-block d-md-none" alt="Kendecor logo">
+        <ul>
+          <li>
+          <li>
+            <a href="/">Home </a>
+          </li>
+          <li class="active">
+            <a href="/about.html">About</a>
+          </li>
+          <li>
+            <a href="/work.html">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html">Contact</a>
+          </li>
+        </ul>
+    </nav>
+  </div>
 
   <div class="about-section container">
     <div class="row">
