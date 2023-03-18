@@ -175,7 +175,7 @@ nav li.active a {
 }
 
 footer {
-  margin: 150px 0;
+  margin: 100px 0;
 }
 footer .contact-box {
   background: var(--secondary-color);
@@ -220,12 +220,12 @@ footer .social-links a:hover {
 /* to adjust the spacing */
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 40px;
     line-height: 1.5;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 38px;
   }
 
   .hero {
@@ -268,5 +268,10 @@ footer .social-links a:hover {
 
   nav a {
     font-size: 12px;
+  }
+
+  footer .email-link {
+    font-size: 20px;
+    margin: -120px;
   }
 }

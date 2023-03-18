@@ -32,6 +32,10 @@ h3 {
   line-height: 64px;
   letter-spacing: 0em;
 }
+
+h4 {
+  font-size: 48px;
+}
 p {
   font-weight: normal;
   font-size: 16px;
@@ -193,14 +197,17 @@ nav-link.active {
   margin-top: -150px;
 }
 
-.open-source {
-  font-size: small;
-  text-align: center;
-  margin-top: 20px;
-}
-
 footer {
   margin: 150px 0;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
 }
 
 footer .email-link {
@@ -230,18 +237,18 @@ footer .social-links a:hover {
 .open-source {
   font-size: small;
   text-align: center;
-  margin-top: -60px;
+  margin-top: -100px;
 }
 
 /* to adjust the spacing */
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 40px;
     line-height: 1.5;
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 38px;
   }
 
   .hero {
@@ -281,5 +288,9 @@ footer .social-links a:hover {
   }
   nav a {
     font-size: 12px;
+  }
+
+  footer .email-link {
+    font-size: -40px;
   }
 }
