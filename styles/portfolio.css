@@ -33,9 +33,6 @@ h3 {
   letter-spacing: 0em;
 }
 
-h4 {
-  font-size: 48px;
-}
 p {
   font-weight: normal;
   font-size: 16px;
@@ -81,7 +78,7 @@ nav li.active a {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 90px 20px;
 }
 
 .hero p {
@@ -119,7 +116,7 @@ nav li.active a {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 120px 0px;
 }
 
 .container2 {
@@ -149,7 +146,7 @@ nav li.active a {
   text-align: center;
 }
 .about-section {
-  margin-top: 200px;
+  margin-top: 120px;
 }
 
 .about-section h1 {
@@ -181,10 +178,7 @@ footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
-}
-
-footer .contact-box p {
-  margin: 0;
+  margin-top: -80px;
 }
 
 footer .email-link {
@@ -217,11 +211,20 @@ footer .social-links a:hover {
   margin-top: -60px;
 }
 
+.Top {
+  text-align: right;
+}
+
+.Top a {
+  text-decoration: none;
+  font-size: 13px;
+}
 /* to adjust the spacing */
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
     line-height: 1.5;
+    margin-top: 0;
   }
 
   h2 {
@@ -254,12 +257,16 @@ footer .social-links a:hover {
 
   .about-section {
     text-align: center;
-    margin-top: 20px;
+    padding: -30px;
+    margin-top: -100px;
   }
 
   .section-image {
-    margin-top: 30px;
+    margin-top: 100px;
     margin-left: -80px;
+  }
+  img.section-image {
+    margin-top: -40px;
   }
 
   .mail {

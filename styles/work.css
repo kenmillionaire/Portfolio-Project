@@ -33,9 +33,6 @@ h3 {
   letter-spacing: 0em;
 }
 
-h4 {
-  font-size: 48px;
-}
 p {
   font-weight: normal;
   font-size: 16px;
@@ -161,7 +158,9 @@ nav-link.active {
   text-align: center;
 }
 .content-container {
-  margin-top: 200px;
+  margin-top: -80px;
+  margin-bottom: -120px;
+  padding: 60px 20px;
 }
 
 .content-container h1 {
@@ -197,6 +196,10 @@ nav-link.active {
   margin-top: -150px;
 }
 
+.row {
+  margin-top: -50px;
+}
+
 footer {
   margin: 150px 0;
 }
@@ -204,10 +207,7 @@ footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
-}
-
-footer .contact-box p {
-  margin: 0;
+  margin-top: -100px;
 }
 
 footer .email-link {
@@ -240,6 +240,14 @@ footer .social-links a:hover {
   margin-top: -100px;
 }
 
+.Top {
+  text-align: right;
+}
+
+.Top a {
+  text-decoration: none;
+  font-size: 13px;
+}
 /* to adjust the spacing */
 @media (max-width: 900px) {
   h1 {
