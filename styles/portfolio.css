@@ -244,9 +244,6 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 600px) {
-  h1 {
-    font-size: 80px;
-  }
   .container2 p {
     font-size: 12px;
     text-align: left;
@@ -262,6 +259,11 @@ footer .social-links a:hover {
     text-align: center;
     padding: -30px;
     margin-top: -100px;
+  }
+
+  .about-section h1 {
+    font-size: 58pxpx;
+    line-height: 85.31px;
   }
 
   .section-image {
