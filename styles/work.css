@@ -281,6 +281,11 @@ footer .social-links a:hover {
     margin-top: -90px;
   }
 
+  .content-container h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
   .section-image {
     margin-top: 30px;
     margin-left: -80px;
