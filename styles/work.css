@@ -83,6 +83,16 @@ nav li.active a {
   text-align: center;
   padding: 160px 20px;
 }
+.img-fluid {
+  width: 450px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.bigger {
+  width: 500px;
+}
+
 /* .nav-link {
   font-family: var(--default-font-family);
 }
