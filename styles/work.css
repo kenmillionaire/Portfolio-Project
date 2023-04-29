@@ -85,12 +85,12 @@ nav li.active a {
 }
 .img-fluid {
   width: 450px;
-  height: 500px;
+  height: 480px;
   object-fit: cover;
 }
 
-.bigger {
-  width: 500px;
+.smaller {
+  width: 375px;
 }
 
 /* .nav-link {
